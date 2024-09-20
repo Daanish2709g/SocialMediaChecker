@@ -11,6 +11,6 @@ public class SocialMediaTool {
         scanner.close();
 
         SocialMediaChecker checker = new SocialMediaChecker();
-        checker.checkSocialMedia(domain);
+        checker.searchSocialMedia(domain);
     }
 }
